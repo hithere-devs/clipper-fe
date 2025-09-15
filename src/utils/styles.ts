@@ -3,13 +3,6 @@
  */
 
 /**
- * Conditionally join class names together
- */
-export function cn(...classes: (string | undefined | null | false)[]): string {
-    return classes.filter(Boolean).join(' ');
-}
-
-/**
  * Combine multiple class name objects/strings
  */
 export function clsx(...inputs: any[]): string {

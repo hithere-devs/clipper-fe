@@ -5,3 +5,4 @@ export * from '@/components/Sidebar';
 export * from '@/components/AppHeader';
 export * from '@/components/PageLoader';
 export * from '@/components/ErrorBoundary';
+export { default as VideoPreview } from '@/components/VideoPreview';

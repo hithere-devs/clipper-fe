@@ -3,7 +3,7 @@
  */
 
 import type { ButtonProps } from '@/types/common';
-import { cn } from '@/utils/styles';
+import { cn } from '@/utils/common';
 import { useLoading } from '@/hooks';
 
 export function Button({
