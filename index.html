@@ -1,13 +1,152 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Google Fonts - Figtree -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Primary Meta Tags -->
+		<title>Clipper - Turn Long Videos Into Viral Clips with AI</title>
+		<meta
+			name="title"
+			content="Clipper - Turn Long Videos Into Viral Clips with AI"
+		/>
+		<meta
+			name="description"
+			content="AI-powered video clipping platform that transforms your long-form content into engaging short clips with automatic captions, virality scoring, and smart editing. Perfect for TikTok, Instagram Reels, and YouTube Shorts."
+		/>
+		<meta
+			name="keywords"
+			content="video editing, AI video clips, viral content, TikTok clips, Instagram Reels, YouTube Shorts, automatic captions, video AI, content creation, social media marketing"
+		/>
+		<meta name="author" content="Clipper" />
+		<meta name="robots" content="index, follow" />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://clipper.app/" />
+		<meta
+			property="og:title"
+			content="Clipper - Turn Long Videos Into Viral Clips with AI"
+		/>
+		<meta
+			property="og:description"
+			content="AI-powered video clipping platform that transforms your long-form content into engaging short clips with automatic captions, virality scoring, and smart editing."
+		/>
+		<meta property="og:image" content="https://clipper.app/og-image.jpg" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:site_name" content="Clipper" />
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:url" content="https://clipper.app/" />
+		<meta
+			name="twitter:title"
+			content="Clipper - Turn Long Videos Into Viral Clips with AI"
+		/>
+		<meta
+			name="twitter:description"
+			content="AI-powered video clipping platform that transforms your long-form content into engaging short clips with automatic captions, virality scoring, and smart editing."
+		/>
+		<meta
+			name="twitter:image"
+			content="https://clipper.app/twitter-image.jpg"
+		/>
+		<meta name="twitter:creator" content="@clipperapp" />
+
+		<!-- Icons and Manifest -->
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="manifest" href="/site.webmanifest" />
+
+		<!-- Theme Color -->
+		<meta name="theme-color" content="#8B5CF6" />
+		<meta name="msapplication-TileColor" content="#8B5CF6" />
+
+		<!-- Preconnect for Performance -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+		<!-- DNS Prefetch for external resources -->
+		<link rel="dns-prefetch" href="https://api.clipper.app" />
+
+		<!-- Canonical URL -->
+		<link rel="canonical" href="https://clipper.app/" />
+
+		<!-- Additional Meta Tags for Mobile -->
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta
+			name="apple-mobile-web-app-status-bar-style"
+			content="black-translucent"
+		/>
+		<meta name="apple-mobile-web-app-title" content="Clipper" />
+
+		<!-- Security Headers -->
+		<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+		<meta http-equiv="X-Frame-Options" content="DENY" />
+		<meta http-equiv="X-XSS-Protection" content="1; mode=block" />
+
+		<!-- Structured Data for SEO -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "SoftwareApplication",
+				"name": "Clipper",
+				"description": "AI-powered video clipping platform that transforms your long-form content into engaging short clips with automatic captions, virality scoring, and smart editing.",
+				"url": "https://clipper.app",
+				"applicationCategory": "VideoEditingApplication",
+				"operatingSystem": "Web",
+				"offers": {
+					"@type": "Offer",
+					"price": "0",
+					"priceCurrency": "USD"
+				},
+				"creator": {
+					"@type": "Organization",
+					"name": "Clipper",
+					"url": "https://clipper.app"
+				},
+				"featureList": [
+					"AI Clip Detection",
+					"Virality Scoring",
+					"Smart Captions",
+					"Trend Analysis",
+					"Multi-Platform Export"
+				]
+			}
+		</script>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.tsx"></script>
+
+		<!-- Fallback for users with JavaScript disabled -->
+		<noscript>
+			<div
+				style="
+					text-align: center;
+					padding: 50px;
+					font-family: 'Figtree', sans-serif;
+				"
+			>
+				<h1>Clipper - AI Video Clipping Platform</h1>
+				<p>Please enable JavaScript to use this application.</p>
+				<p>
+					Clipper transforms your long videos into viral clips with AI-powered
+					editing.
+				</p>
+			</div>
+		</noscript>
+	</body>
 </html>

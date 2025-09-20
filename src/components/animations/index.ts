@@ -26,3 +26,4 @@ export { default as GlassSurface } from './GlassSurface';
 export { default as TiltedCard } from './TiltedCard';
 export { default as MagicBento } from './MagicBento';
 export { default as Typewriter } from './Typewriter';
+export { default as GlowText } from './GlowText';

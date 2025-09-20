@@ -1,1 +1,76 @@
 @import 'tailwindcss';
+
+/* Figtree Font Styles */
+.figtree-regular {
+	font-family: 'Figtree', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.figtree-medium {
+	font-family: 'Figtree', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.figtree-semibold {
+	font-family: 'Figtree', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.figtree-bold {
+	font-family: 'Figtree', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
+}
+
+/* Base body styles with Figtree */
+body {
+	font-family: 'Figtree', sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #000;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+/* Custom animations for the landing page */
+@keyframes scaleX {
+	from {
+		transform: scaleX(0);
+	}
+	to {
+		transform: scaleX(1);
+	}
+}
+
+@keyframes translateX {
+	0% {
+		transform: translateX(-100%);
+	}
+	50% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+@keyframes float-sparkle {
+	0%,
+	100% {
+		transform: translateY(0px) rotate(0deg);
+		opacity: 0.3;
+	}
+	50% {
+		transform: translateY(-20px) rotate(180deg);
+		opacity: 1;
+	}
+}
